@@ -11,6 +11,6 @@ int minOfArray(int a[], int size) {
   for (int i=1; i<size; i++) {
     if (a[i] < result)
       result = a[i];
-  }
+ }
   return result;
 }
